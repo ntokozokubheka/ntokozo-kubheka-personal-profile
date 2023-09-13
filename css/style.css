@@ -50,7 +50,7 @@ main {
 #skill-list {
   text-align: center;
   display: flex;
-  background: grey;
+  background: white;
   width: 75%;
   margin: 0 auto;
 }
