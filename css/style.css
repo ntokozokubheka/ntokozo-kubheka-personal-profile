@@ -35,6 +35,7 @@ main {
   text-align: center;
   background: lightgrey;
   padding-top: 45vh;
+ 
 }
 
 #projects {
@@ -42,43 +43,42 @@ main {
   background: white;
 }
 
-#skills {
+#skills{
   text-align: center;
-  background: white;
+  background: white; 
+}
+#skill-list{
+  
+  display:flex;
+  justify-content: space-around;
+  background: grey;
+  width :75%;
+  margin:0 auto;
+  
+}
+#skill-list >ul{
+  
 }
 
-#skill-list {
-  text-align: center;
-  display: flex;
-  background: white;
-  width: 75%;
-  margin: 0 auto;
+.skill-right{
+  
+   
+}
+.skill-middle{
+ 
+   
+}
+.skill-left{
+  position :relative;
+  left:100px;  
+   
 }
 
-#skill-list > ul {
-  list-style-type: none;
-  padding: 2px;
+#contact{
+ text-align: center;
+  background: white; 
 }
 
-.skill-right {
-  position: relative;
-  left: 1000px;
-}
-
-.skill-middle {
-  position: relative;
-  left: 500px;
-}
-
-.skill-left {
-  position: relative;
-  left: 100px;
-}
-
-#contact {
-  text-align: center;
-  background: white;
-}
 
 #profile {
   text-align: center;
@@ -164,3 +164,4 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
